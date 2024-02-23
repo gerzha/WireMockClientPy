@@ -1,0 +1,14 @@
+{
+	"request": {
+		"method": "POST",
+        "urlPathPattern": "/api/v1/test_stub/(.*)/accounts/"
+    },
+	"response": {
+	  "status": 201,
+	  "headers": {
+		"Content-Type": "application/json"
+	  },
+      "body": "{\"data\": {{jsonPath request.body '$'}} }",
+	  "transformers": ["response-template"]
+	}
+}

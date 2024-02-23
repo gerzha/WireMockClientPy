@@ -1,0 +1,9 @@
+.allure/
+.cache/
+.idea/
+.venv/
+.pytest_cache/
+dist/
+*.egg-info/
+.coverage
+*.pyc

@@ -1,0 +1,15 @@
+{
+	"request": {
+		"method": "GET",
+		"urlPath": "/api/v1/test_stub/"
+	},
+	"response": {
+		"status": 200,
+		"headers": {
+			"Content-Type": "application/json"
+		},
+		"jsonBody": {
+			"data": []
+		}
+	}
+}
